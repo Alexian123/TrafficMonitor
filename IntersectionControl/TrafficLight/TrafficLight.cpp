@@ -1,5 +1,4 @@
-#include <Arduino.h>
-#include <TrafficLight.h>
+#include "TrafficLight.h"
 
 #define BIT0 0x1
 #define BIT1 0x2

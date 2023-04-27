@@ -1,7 +1,7 @@
 #ifndef TRAFFIC_LIGHT_H
 #define TRAFFIC_LIGHT_H
 
-#include <Arduino.h>
+#include "Arduino.h"
 
 namespace TrafficMonitor
 {

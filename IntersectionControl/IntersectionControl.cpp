@@ -1,6 +1,4 @@
-#include <Arduino.h>
-#include <IntersectionControl.h>
-#include <TrafficLight.h>
+#include "IntersectionControl.h"
 
 using namespace TrafficMonitor;
 

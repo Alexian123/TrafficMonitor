@@ -1,5 +1,4 @@
-#include <TrafficLight.h>
-#include <IntersectionControl.h>
+#include "IntersectionControl/IntersectionControl.h"
 
 using namespace TrafficMonitor;
 
