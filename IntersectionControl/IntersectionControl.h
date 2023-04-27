@@ -8,7 +8,7 @@ namespace TrafficMonitor
 {
 	enum ControlState
 	{
-		OFF = 0x0,
+		DISABLED = 0x0,
 		NORMAL,
 		BLINK_YELLOW,
 		DEBUG
@@ -25,7 +25,7 @@ namespace TrafficMonitor
 	class IntersectionControl
 	{
 	private:
-		static constexpr NUM_DIRECTIONS = 4;
+		static constexpr byte NUM_DIRECTIONS = 4;
 	
 		struct _PedCrossing		// traffic light pairs (will be in sync)
 		{
