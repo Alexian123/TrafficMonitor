@@ -1,8 +1,7 @@
-#ifndef INTERSECTION_CONTROL_H
-#define INTERSECTION_CONTROL_H
+#pragma once
 
 #include "Arduino.h"
-#include "TrafficLight/TrafficLight.h"
+#include "TrafficLight.h"
 
 namespace TrafficMonitor
 {
@@ -45,5 +44,3 @@ namespace TrafficMonitor
 	};
 	
 }
-
-#endif

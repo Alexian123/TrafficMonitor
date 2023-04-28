@@ -1,5 +1,4 @@
-#ifndef TRAFFIC_LIGHT_H
-#define TRAFFIC_LIGHT_H
+#pragma once
 
 #include "Arduino.h"
 
@@ -49,5 +48,3 @@ namespace TrafficMonitor
         void blink();                       // blinking light
     };
 }
-
-#endif

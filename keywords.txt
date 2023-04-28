@@ -1,0 +1,33 @@
+#######################################
+# Syntax Coloring Map For TrafficMonitor-Library
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+TrafficMonitor KEYWORD1
+TLState	KEYWORD1
+TrafficLight KEYWORD1
+ControlState KEYWORD1
+Direction KEYWORD1
+IntersectionControl KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+run	KEYWORD2
+setState KEYWORD2
+getState KEYWORD2
+setBlinkMode KEYWORD2
+getBlinkMode KEYWORD2
+setOnTime KEYWORD2
+getOnTime KEYWORD2
+setOffTime KEYWORD2
+getOffTime KEYWORD2
+addPedestrianCrossing KEYWORD2
+addVehicleTrafficLight KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+

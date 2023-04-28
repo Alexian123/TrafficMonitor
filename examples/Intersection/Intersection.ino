@@ -1,4 +1,4 @@
-#include "IntersectionControl/IntersectionControl.h"
+#include <TrafficMonitor.h>
 
 using namespace TrafficMonitor;
 

@@ -1,2 +1,2 @@
-# traffic-monitor
-Car and pedestrian traffic light system with Arduino
+# TrafficMonitor
+Car and pedestrian traffic light monitor library for Arduino
