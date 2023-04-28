@@ -20,7 +20,9 @@ IntersectionControl::~IntersectionControl()
 bool IntersectionControl::addPedestrianCrossing(Direction dir, TrafficLight *a, TrafficLight *b)
 {
 	if (a && b && pedCtl[dir] == nullptr) {
-		pedCtl[dir] = new _PedCrossing(a, b);
+		pedCtl[dir] = new _PedCrossing();
+		pedCtl[dir]->a = a;
+		pedCtl[dir]->b = b;
 		return true;
 	}
 	return false;
