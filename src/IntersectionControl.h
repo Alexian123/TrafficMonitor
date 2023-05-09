@@ -57,7 +57,8 @@ namespace TrafficMonitor
 		bool addPedestrianCrossing(Direction dir, TrafficLight *a, TrafficLight *b);
 		bool addVehicleTrafficLight(Direction dir, TrafficLight *tl);
 		void changeState(ControlState state);
-		void setDebugParams(TLState state, bool blinkMode);
+		void setDebugTLState(TLState state);
+      	void setDebugBlinkMode(bool blinkMode);
 		
 	private:
 		void runNormal();	// run with proper timing for each light

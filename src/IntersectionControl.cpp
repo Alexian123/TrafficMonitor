@@ -74,9 +74,13 @@ void IntersectionControl::changeState(ControlState state)
 	}
 }
 
-void IntersectionControl::setDebugParams(TLState state, bool blinkMode)
+void IntersectionControl::setDebugTLState(TLState state)
 {
 	this->debugTLState = state;
+}
+
+void IntersectionControl::setDebugBlinkMode(bool blinkMode)
+{
 	this->debugBlinkMode = blinkMode;
 }
 
