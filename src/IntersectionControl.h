@@ -59,6 +59,7 @@ namespace TrafficMonitor
 		void changeState(ControlState state);
 		void setDebugTLState(TLState state);
       	void setDebugBlinkMode(bool blinkMode);
+		bool getDebugBlinkMode() const;
 		
 	private:
 		void runNormal();	// run with proper timing for each light

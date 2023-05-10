@@ -84,6 +84,11 @@ void IntersectionControl::setDebugBlinkMode(bool blinkMode)
 	this->debugBlinkMode = blinkMode;
 }
 
+bool IntersectionControl::getDebugBlinkMode() const
+{
+	return this->debugBlinkMode;
+}
+
 void IntersectionControl::runNormal()
 {
 	long currentMillis = millis();

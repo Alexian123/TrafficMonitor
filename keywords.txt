@@ -11,11 +11,11 @@ TrafficLight KEYWORD1
 ControlState KEYWORD1
 Direction KEYWORD1
 IntersectionControl KEYWORD1
+SerialHandler KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
-run	KEYWORD2
 setState KEYWORD2
 getState KEYWORD2
 setBlinkMode KEYWORD2
@@ -26,8 +26,12 @@ setOffTime KEYWORD2
 getOffTime KEYWORD2
 addPedestrianCrossing KEYWORD2
 addVehicleTrafficLight KEYWORD2
+changeState KEYWORD2
+setDebugTLState KEYWORD2
+setDebugBlinkMode KEYWORD2
+getDebugBlinkMode KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
 #######################################
-
+MAX_NUM_TL LITERAL1
