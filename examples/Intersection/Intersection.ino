@@ -1,5 +1,7 @@
 #include <TrafficMonitor.h>
 
+using namespace TrafficMonitor;
+
 TrafficLight *tl[MAX_NUM_TL];
 IntersectionControl ctl;
 
