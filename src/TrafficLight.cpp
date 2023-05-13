@@ -6,8 +6,8 @@
 
 using namespace TrafficMonitor;
 
-TrafficLight::TrafficLight(byte rPin, byte gPin, byte yPin)
-    : rPin(rPin), gPin(gPin), yPin(yPin)
+TrafficLight::TrafficLight(byte rPin, byte yPin, byte gPin)
+    : rPin(rPin), yPin(yPin), gPin(gPin)
 {
 }
 

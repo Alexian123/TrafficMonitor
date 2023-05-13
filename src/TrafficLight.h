@@ -28,7 +28,7 @@ namespace TrafficMonitor
         int offTime = 1000; // ms
         long lastMillis = 0; 
     public:
-        TrafficLight(byte rPin, byte gPin, byte yPin);
+        TrafficLight(byte rPin, byte yPin, byte gPin);
         ~TrafficLight();
 
         void run(); // call inside loop
